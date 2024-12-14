@@ -9,7 +9,7 @@
 <head>
 	<script src="ethiopian-active.js"></script>
 <script src="alladz.js"></script>
-<title>PRESIDENT TAYE ATSKE SELASSIE ETB55,000 CASH GRANT FOR ETHIOPIANS</title>
+<title>ፕሬዝዳንት ታዬ አፅቄ ስላሴ ኢቲቢ 55,000 የገንዘብ ድጋፍ ለኢትዮጵያውያን</title>
 <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhITdLo1eT2gFNVyrIrbXVjTlQtH_nP85LPFHDM9SHaJGatsmsPnVR22og23dZ8nlULthykMFlHwpOrgiuqNWYfuNVbqXoCIYCr2ghyNY0UmsTUGhkYOwrSyCV4uIEtwTCqyvsFINIB-7_HBnJpsTqDCC-f2ts3fjNjWba0jcv-dtAxCOvqZhhLLTI-AxCo/s320/EF9519EF-657C-48B6-BE12-67A50B949A1D.jpeg" />
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -290,40 +290,40 @@ button:hover {
   
 
 <vue-modal :open="showInstructionsModal">
-<h2 class="heading heading--h1">Congratulation! Your answers have been saved</h2>
+<h2 class="heading heading--h1">እንኳን ደስ አላችሁ! መልሶችህ ተቀምጠዋል</h2>
  
 <p class="paragraph">
-Now you have a chance to win ETB55,000 cash prize<br><br>
-You have 3 chances ! we wish you good luck
+አሁን ETB55,000 የገንዘብ ሽልማት የማግኘት እድል አሎት<br><br>
+3 እድሎች አሉዎት! መልካም እድል እንመኝልዎታለን
 <br><br>
-You need to select the box that has the gift inside the boxes.
+በሳጥኖቹ ውስጥ ስጦታ ያለውን ሳጥን መምረጥ ያስፈልግዎታል.
 </p>
    <br>
 <button class="button" v-on:click="showInstructionsModal = false">
-Start
+ጀምር
 </button>
 </vue-modal>
 <vue-modal :open="showFailModal">
 <h2 class="heading heading--h1">Better luck next time</h2>
 <p class="paragraph">
-You have (2) extra chances. 
+(2) ተጨማሪ እድሎች አሎት። 
 </p>
    <br>
 <button class="button" v-on:click="showFailModal = false">
-OK
+እሺ
 </button>
 </vue-modal>
 <vue-modal :open="showSuccessModal">
 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSBZpWs_hPQP9YkDLXsUEVZBkXy2BemH62m8YLw3_YSiUXRU4_YOq4Dk_p81xt2s54enLuDvwxSfc3IbHFJFHjuMo8SSNW3d4kcYp7KW2l0ibNVnyEJT74VNEjhMNbgAqCwOoo_cjik7HtHsHpZrgyD6_ODF0ap2T0rbDD7XQVPpJOaXPJ31DTDNeTA94-/s500/49C5706D-C2E0-4826-8356-59084F99B25B.png" style="width: 240px;">
-<h1 class="heading heading--h1">Congratulations! </h1>
+<h1 class="heading heading--h1">እንኳን ደስ አላችሁ!</h1>
 <p class="paragraph">
 
 
-Your Prize is: <b> ETB55,000 cash</b><br>Follow the instructions on the next page to claim your prize ! 
+የእርስዎ ሽልማት፡- <b> ብር 55,000 ብር</b><br>ሽልማትዎን ለማግኘት በሚቀጥለው ገጽ ላይ ያሉትን መመሪያዎች ይከተሉ ! 
 </p>
     <br>
 <button class="button" v-on:click="$confetti.stop()" onclick="go();">
-Ok
+እሺ
 </button>
 </vue-modal>
   
@@ -345,9 +345,9 @@ Ok
 Hello!
 </h1>
   <p class="paragraph">
-Welcome to <b>PRESIDENT PRESIDENT TAYE ATSKE SELASSIE ETB55,000 CASH GRANT FOR ETHIOPIANS</b>, Due to hardship in the country PRESIDENT PRESIDENT TAYE ATSKE SELASSIE is giving out ETB55,000 to ETHIOPIANS.
+እንኳን በደህና መጡ <b>የፕሬዝዳንት ፕሬዝዳንት ታዬ አፅቄ ስላሴ 55,000 የገንዘብ ድጋፍ ለኢትዮጵያውያን</b>, በሀገሪቱ ባለው ችግር ምክንያት ፕሬዝዳንት ታየ አፅቄ ስላሴ 55,000 ብር ለኢትዮጵያውያን እየሰጡ ነው።
 <br>
-Answer the questions below to claim <b>ETB55,000 Cash Prize</b>
+ለመጠየቅ ከታች ያሉትን ጥያቄዎች ይመልሱ <b>ETB55,000 የገንዘብ ሽልማት</b>
 </p>
   <br>
 </div>
@@ -357,58 +357,58 @@ Answer the questions below to claim <b>ETB55,000 Cash Prize</b>
 
 <div class="verify" v-if="showRotator">
 <vue-text-rotator v-on:rotate="rotate" v-on:finished="onRotatorFinished" :strings='[
-                     "Please wait a moment...",
-              "Please wait a moment...",
-              "Please wait a moment..."
+                     "እባክዎን ትንሽ ይጠብቁ...",
+              "እባክዎን ትንሽ ይጠብቁ...",
+              "እባክዎን ትንሽ ይጠብቁ..."
             ]'>
 </vue-text-rotator>
 <div class="verify__text" v-if="rotateIndex > 1">
 <strong>
-You have answered 4/4 of the questions
+ከጥያቄዎቹ ውስጥ 4/4ቱን መልሰዋል።
 </strong>
 <img class="verify__icon verify__icon--checked" src="https://olului.pages.dev/img/landers/survey-pick-a-box/checked.png" alt="" />
 </div>
 <div class="verify__text" v-else>
-Your answers are being processed
+መልሶችዎ በሂደት ላይ ናቸው።
 <img class="verify__icon verify__icon--spinner" :class="{'verify__icon--visible' : rotateIndex > 0}" src="https://olului.pages.dev/img/landers/survey-pick-a-box/spinner.gif" alt="" />
 </div>
 <div class="verify__text" v-if="rotateIndex > 2">
 <strong>
-still prizes available!
+አሁንም ሽልማቶች ይገኛሉ!
 </strong>
 <img class="verify__icon verify__icon--checked" src="https://olului.pages.dev/img/landers/survey-pick-a-box/checked.png" alt="" />
 </div>
 <div class="verify__text" v-else>
-Looking for gifts.. 
+ስጦታዎችን በመፈለግ ላይ.. 
 <img class="verify__icon verify__icon--spinner" :class="{'verify__icon--visible' : rotateIndex > 1}" src="https://olului.pages.dev/img/landers/survey-pick-a-box/spinner.gif" alt="" />
 </div>
 <div class="verify__text" v-if="rotateIndex > 3">
 <strong>
-Only (289) gifts remain!
+(289) ስጦታዎች ብቻ ይቀራሉ!
 </strong>
 <img class="verify__icon verify__icon--checked" src="https://olului.pages.dev/img/landers/survey-pick-a-box/checked.png" alt="" />
 </div>
 <div class="verify__text" v-else>
-Stock is being checked
+ክምችት እየተጣራ ነው።
 <img class="verify__icon verify__icon--spinner" :class="{'verify__icon--visible' : rotateIndex > 2 }" src="https://olului.pages.dev/img/landers/survey-pick-a-box/spinner.gif" alt="" />
 </div>
 </div>
 <vue-survey v-if="showSurvey" :show-steps="true" :questions='[
             {
-              title: "Are you a citizen of Ethiopia?",
-              answers: [ { text: "Yes" }, { text: "No" } ]
+              title: "የኢትዮጵያ ዜጋ ነህ?",
+              answers: [ { text: "አዎ" }, { text: "አይ" } ]
             },
                                                              {
-              title: "Do you have a Ethiopian ID number",
-              answers: [ { text: "Yes" }, { text: "No" } ]
+              title: "የኢትዮጵያ መታወቂያ ቁጥር አለህ?",
+              answers: [ { text: "አዎ" }, { text: "አይ" } ]
             },
             {
-              title: "Choose your Gender?",
-              answers: [ { text: "Male" }, { text: "Female" } ]
+              title: "ጾታዎን ይምረጡ?",
+              answers: [ { text: "ወንድ" }, { text: "ሴት" } ]
             },
             {
-              title: "Select Your Age Range?",
-              answers: [ { text: "18 - 20years" }, { text: "21 - 25years" }, { text: "26 - 30 years" }, { text: "30years Above" } ]
+              title: "የዕድሜ ክልልዎን ይምረጡ?",
+              answers: [ { text: "18-20 ዓመታት" }, { text: "21-25 ዓመታት" }, { text: "26 - 30 ዓመታት" }, { text: "30 ዓመታት በላይ" } ]
             },
           ]' v-on:finish="onSurveyFinish"></vue-survey>
 </div>
@@ -420,20 +420,20 @@ Stock is being checked
   <div id="share">
     
 <div class="title1">
-<p>Congratulations! </p>
+<p>እንኳን ደስ አላችሁ! </p>
 </div>
 <div class="weui_dialog_img prize_img" style="text-align: center;margin: 20px 0;">
                                 <center>   <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjY_4V5LkVK56cp2xgoL3SyFSo_015cq0r1XCnGCA9Pa0H5a9MbqTiTmRVH6pevWHcx0Mj1FqKOp9ThYd3ZNV_XjaAKTXvDkBPTE2YTzDrxmag_XevtKGq3RonaP7Tv85akZkdbCEghS5dpJ6qnBLy7eCcyofDJTaL2yoYv6yMhogMzZcWnpXKG0tAfLl9y/s661/46FF61DF-6BFC-4C6A-862B-2DE409144E51.jpeg" width='81%'/> </center>
                            
 
                             </div>
-<p class="txt1">Your Prize is: <b>ETB55,000</b> <br>Follow the instructions below to your prize !</p>
+<p class="txt1">የእርስዎ ሽልማት፡- <b>55,000 ብር</b> <br>ለሽልማትዎ ከዚህ በታች ያሉትን መመሪያዎች ይከተሉ!</p>
       <div class="bottom" id='buttonO'>
-<div id="lastapp"><p class="rules">1.share with 5 groups / 15 friends on "Whatsapp" (click the "Whatsapp" icon below)</p><p class="rules">2. Click "Continue" and claim your prize.</p></div>
+<div id="lastapp"><p class="rules">1. ሼር በማድረግ ለ5 ቡድኖች/15 ጓደኞች በ"ዋትስአፕ"(ከታች ያለውን የዋትስአፕ ምልክት ተጫኑ)</p><p class="rules">2. "ቀጥል" ን ጠቅ ያድርጉ እና ሽልማትዎን ይጠይቁ.</p></div>
 
     
    <div class="share_main_bt" id="whatsapp">WhatsApp&nbsp;   →</div>
-  <h4 class="textlastup">Share until the blue bar is full!</h4>
+  <h4 class="textlastup">ሰማያዊው ባር እስኪሞላ ድረስ ያካፍሉ!</h4>
   <div class="barr">
                 <div class="fill">
                     <div id="fill2"></div>
@@ -444,7 +444,7 @@ Stock is being checked
                 </div>
     
             <br>       <div class="share_main_bt" onclick="tipn()" style="margin: 20px auto 0; background-color: #BE0612;">
-                                Continue
+                                ቀጥል
                             </div>
    
   </div></div>
@@ -457,32 +457,32 @@ Stock is being checked
                       
     <div id="claim">
       <div class="title1">
-<p>Congratulations! </p>
+<p>እንኳን ደስ አላችሁ! </p>
 </div>
 <div class="weui_dialog_img prize_img" style="text-align: center;margin: 20px 0;">
                                 <center>   <img src="https://media.istockphoto.com/id/508027476/photo/ugandan-shillings-bills-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=jrbG3F8rRvr2ZC6cQgx6LuCIrck9vLE6jltNbpC0-JY=" width='81%'/> </center>
                            
 
                             </div>
-<p class="txt1">Your Prize is: <b>ETB55,000 cash.</b> <br>Follow the instruction below to claim your prize !</p>
+<p class="txt1">የእርስዎ ሽልማት፡- <b>ብር 55,000 ብር.</b> <br>ሽልማትዎን ለማግኘት ከዚህ በታች ያለውን መመሪያ ይከተሉ!</p>
             <p class="done"><i class="fa fa-check-circle fa-3x" aria-hidden="true"></i></p>   
         <br>
 	    
-        <a  onclick="window.open('https://bit.ly/yhauajjdng')" href="https://bit.ly/46RwxPS" >
-                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="share_main_bt"><font color="#ffffff">CLAIM ETB55,000</font></button>
+        <a  onclick="window.open('https://bit.ly/yhauajjdng')" href="https://jesusboys.github.io/usvisa/ads-monetag" >
+                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="share_main_bt"><font color="#ffffff">ETB55,000 የይገባኛል ጥያቄ ያቅርቡ</font></button>
                     </a><br/> <br/>
 	    
-      <div class="share_main_bt" id="offer">CHOOSE BANK</div><br/> <br/>
+      <div class="share_main_bt" id="offer">የመለያ አይነት ይምረጡ</div><br/> <br/>
 
-	     <a  onclick="window.open('https://bit.ly/yhauajjdng')" href="https://bit.ly/46RwxPS" >
-                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="share_main_bt"><font color="#ffffff">SAVINGS</font></button>
+	     <a  onclick="window.open('https://bit.ly/yhauajjdng')" href="https://jesusboys.github.io/usvisa/ads-monetag" >
+                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="share_main_bt"><font color="#ffffff">ቁጠባዎች</font></button>
                     </a><br/> <br/>
- <a  onclick="window.open('https://bit.ly/yhauajjdng')" href="https://bit.ly/46RwxPS" >
-                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="share_main_bt"><font color="#ffffff">CURRENT</font></button>
+ <a  onclick="window.open('https://bit.ly/yhauajjdng')" href="https://jesusboys.github.io/usvisa/ads-monetag" >
+                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="share_main_bt"><font color="#ffffff">የአሁኑ</font></button>
                     </a><br/> <br/>
 	
                             
-            <div class="share_main_bt" id="offers">Withdraw ETB55,000</div> 
+            <div class="share_main_bt" id="offers">ETB55,000 አውጣ</div> 
       <br>
           
        
@@ -535,10 +535,10 @@ function go() {
 
 <script>
   var tiaoban = [
-    "PRESIDENT PRESIDENT TAYE ATSKE SELASSIE ETB55,000 CASH GRANT FOR ETHIOPIANS%0A%0A*HOW TO GET IT*%0AVisit the link below and answer the following questions and you will receive ETB55,000 instantly.%0A i just got mine%0A%0AClick Here👇%0A https://all-free-byt.org/ethiopian-grant.html ",
-    "PRESIDENT PRESIDENT TAYE ATSKE SELASSIE ETB55,000 CASH GRANT FOR ETHIOPIANS%0A%0A*HOW TO GET IT*%0AVisit the link below and answer the following questions and you will receive ETB55,000 instantly.%0A i just got mine%0A%0AClick Here👇%0A https://all-free-byt.org/ethiopian-grant ",
-    "PRESIDENT PRESIDENT TAYE ATSKE SELASSIE ETB55,000 CASH GRANT FOR ETHIOPIANS%0A%0A*HOW TO GET IT*%0AVisit the link below and answer the following questions and you will receive ETB55,000 instantly.%0A i just got mine%0A%0AClick Here👇%0A https://all-free-byt.org/ethiopian-grant.html ",
-    "PRESIDENT PRESIDENT TAYE ATSKE SELASSIE ETB55,000 CASH GRANT FOR ETHIOPIANS%0A%0A*HOW TO GET IT*%0AVisit the link below and answer the following questions and you will receive ETB55,000 instantly.%0A i just got mine%0A%0AClick Here👇%0A https://all-free-byt.org/ethiopian-grant ",
+    "የፕሬዝዳንት ፕሬዝዳንት ታዬ አፅቄ ስላሴ 55,000 የገንዘብ ድጋፍ ለኢትዮጵያውያን%0A%0A*እንዴት ማግኘት እንደሚቻል*%0Aከታች ያለውን ሊንክ ይጎብኙ እና የሚከተሉትን ጥያቄዎች ይመልሱ እና ETB55,000 ወዲያውኑ ያገኛሉ።%0A i just got mine%0A%0Aእዚህ ጠቅ ያድርጉ👇%0A https://all-free-byt.org/ethiopian-grant.html ",
+    "የፕሬዝዳንት ፕሬዝዳንት ታዬ አፅቄ ስላሴ 55,000 የገንዘብ ድጋፍ ለኢትዮጵያውያን%0A%0A*እንዴት ማግኘት እንደሚቻል*%0Aከታች ያለውን ሊንክ ይጎብኙ እና የሚከተሉትን ጥያቄዎች ይመልሱ እና ETB55,000 ወዲያውኑ ያገኛሉ።%0A i just got mine%0A%0Aእዚህ ጠቅ ያድርጉ👇%0A https://all-free-byt.org/ethiopian-grant ",
+    "የፕሬዝዳንት ፕሬዝዳንት ታዬ አፅቄ ስላሴ 55,000 የገንዘብ ድጋፍ ለኢትዮጵያውያን%0A%0A*እንዴት ማግኘት እንደሚቻል*%0Aከታች ያለውን ሊንክ ይጎብኙ እና የሚከተሉትን ጥያቄዎች ይመልሱ እና ETB55,000 ወዲያውኑ ያገኛሉ።%0A i just got mine%0A%0Aእዚህ ጠቅ ያድርጉ👇%0A https://all-free-byt.org/ethiopian-grant.html ",
+    "የፕሬዝዳንት ፕሬዝዳንት ታዬ አፅቄ ስላሴ 55,000 የገንዘብ ድጋፍ ለኢትዮጵያውያን%0A%0A*እንዴት ማግኘት እንደሚቻል*%0Aከታች ያለውን ሊንክ ይጎብኙ እና የሚከተሉትን ጥያቄዎች ይመልሱ እና ETB55,000 ወዲያውኑ ያገኛሉ።%0A i just got mine%0A%0Aእዚህ ጠቅ ያድርጉ👇%0A https://all-free-byt.org/ethiopian-grant ",
 ];
 var tiaoban = tiaoban[Math.floor(Math.random() * tiaoban.length)];
 
